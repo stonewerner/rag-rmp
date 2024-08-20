@@ -1,0 +1,124 @@
+{
+  "reviews": [
+    {
+      "professor": "Dr. Emily Chen",
+      "subject": "Computer Science",
+      "stars": 5,
+      "review": "Dr. Chen is an exceptional instructor. Her lectures are engaging and she explains complex concepts clearly. Always available during office hours."
+    },
+    {
+      "professor": "Prof. Michael Johnson",
+      "subject": "Physics",
+      "stars": 4,
+      "review": "Challenging course, but Prof. Johnson makes it interesting. His enthusiasm for the subject is contagious."
+    },
+    {
+      "professor": "Dr. Sarah Thompson",
+      "subject": "English Literature",
+      "stars": 5,
+      "review": "Dr. Thompson's passion for literature is evident in every lecture. She encourages critical thinking and fosters great discussions."
+    },
+    {
+      "professor": "Prof. David Lee",
+      "subject": "Economics",
+      "stars": 3,
+      "review": "Prof. Lee knows his stuff, but his lectures can be dry. Exams are fair, though."
+    },
+    {
+      "professor": "Dr. Rachel Goldstein",
+      "subject": "Biology",
+      "stars": 5,
+      "review": "Best professor I've had at Berkeley! Dr. Goldstein makes complex topics easy to understand and her lab sessions are well-organized."
+    },
+    {
+      "professor": "Prof. Robert Clark",
+      "subject": "History",
+      "stars": 4,
+      "review": "Prof. Clark's lectures are like time travel. He brings historical events to life with his storytelling."
+    },
+    {
+      "professor": "Dr. Laura Martinez",
+      "subject": "Psychology",
+      "stars": 5,
+      "review": "Dr. Martinez is not only knowledgeable but also approachable. Her research-focused approach is refreshing."
+    },
+    {
+      "professor": "Prof. Kevin Wong",
+      "subject": "Mathematics",
+      "stars": 3,
+      "review": "Prof. Wong is brilliant, but sometimes moves too fast in lectures. Office hours are helpful though."
+    },
+    {
+      "professor": "Dr. Olivia Patel",
+      "subject": "Chemistry",
+      "stars": 4,
+      "review": "Dr. Patel's enthusiasm for chemistry is infectious. Lab work can be challenging but rewarding."
+    },
+    {
+      "professor": "Prof. Thomas Brown",
+      "subject": "Philosophy",
+      "stars": 5,
+      "review": "Mind-blowing lectures! Prof. Brown challenges you to think deeply about life's big questions."
+    },
+    {
+      "professor": "Dr. Jennifer Kim",
+      "subject": "Sociology",
+      "stars": 4,
+      "review": "Dr. Kim brings real-world examples into her lectures, making sociological concepts relatable and interesting."
+    },
+    {
+      "professor": "Prof. William Taylor",
+      "subject": "Political Science",
+      "stars": 3,
+      "review": "Prof. Taylor knows his subject well, but can be a bit disorganized. Interesting discussions in class though."
+    },
+    {
+      "professor": "Dr. Alexandra Ivanova",
+      "subject": "Linguistics",
+      "stars": 5,
+      "review": "Dr. Ivanova's passion for languages is contagious. Her classes are challenging but incredibly rewarding."
+    },
+    {
+      "professor": "Prof. James Wilson",
+      "subject": "Art History",
+      "stars": 4,
+      "review": "Prof. Wilson's lectures are like guided tours through art museums. His knowledge of art is impressive."
+    },
+    {
+      "professor": "Dr. Samantha Lee",
+      "subject": "Environmental Science",
+      "stars": 5,
+      "review": "Dr. Lee's commitment to environmental issues is inspiring. Her field trips are the highlight of the course."
+    },
+    {
+      "professor": "Prof. Daniel Garcia",
+      "subject": "Computer Science",
+      "stars": 4,
+      "review": "Prof. Garcia makes programming fun! His projects are challenging but great learning experiences."
+    },
+    {
+      "professor": "Dr. Elizabeth Wright",
+      "subject": "Anthropology",
+      "stars": 5,
+      "review": "Dr. Wright's lectures are fascinating. She brings anthropology to life with her fieldwork stories."
+    },
+    {
+      "professor": "Prof. Richard Tanner",
+      "subject": "Business",
+      "stars": 3,
+      "review": "Prof. Tanner has great industry experience, but his teaching style can be a bit dry at times."
+    },
+    {
+      "professor": "Dr. Maria Rodriguez",
+      "subject": "Neuroscience",
+      "stars": 5,
+      "review": "Dr. Rodriguez is at the cutting edge of neuroscience research. Her classes are challenging but incredibly informative."
+    },
+    {
+      "professor": "Prof. Andrew Chang",
+      "subject": "Statistics",
+      "stars": 4,
+      "review": "Prof. Chang makes statistics accessible and even fun! His real-world examples really help in understanding concepts."
+    }
+  ]
+}
