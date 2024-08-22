@@ -1,6 +1,7 @@
 'use client'
 import { useState } from "react";
 import { Stack, Box, TextField, Button } from "@mui/material";
+import ReactMarkdown from 'react-markdown';
 
 export default function Home() {
 
@@ -62,7 +63,7 @@ export default function Home() {
           messages.map((message, index) => (
             <Box key={index} display="flex" justifyContent={message.role === 'assistant' ? 'flex-start' : 'flex-end'}>
               <Box bgcolor={message.role === 'assistant' ? 'primary.main' : 'secondary.main'} color="white" borderRadius={16} p={3}>
-                {message.content}
+                <ReactMarkdown>{message.content}</ReactMarkdown>
               </Box>
             </Box>
           ))
