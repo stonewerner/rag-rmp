@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎓 Rate My Professor Chat Assistant
 
-## Getting Started
+A modern, AI-powered chat interface that helps students find and learn about professors using RAG (Retrieval Augmented Generation) technology. Get personalized professor recommendations and insights based on the Rate My Professor database.
 
-First, run the development server:
+![Rate My Professor Chat](https://img.shields.io/badge/Status-In%20Development-yellow)
+![Next.js](https://img.shields.io/badge/Next.js-13.0-black)
+![OpenAI](https://img.shields.io/badge/OpenAI-GPT--4-blue)
+![Pinecone](https://img.shields.io/badge/Pinecone-Vector%20DB-purple)
 
+## 🌟 Features
+
+- 🤖 AI-powered chat interface for professor inquiries
+- 📚 Real-time professor recommendations based on student feedback
+- 🔍 Smart search using RAG technology
+- 💬 Interactive chat experience with markdown support
+- 📊 Detailed professor ratings and reviews
+- 🎯 Personalized recommendations based on specific criteria
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+- Pinecone account
+- OpenAI API key
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/stonewerner/rag-rmp.git
+cd rag-rmp
+```
+
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Set up environment variables:
+```bash
+# Create a .env.local file with:
+PINECONE_API_KEY=your_pinecone_api_key
+OPENAI_API_KEY=your_openai_api_key
+```
+
+4. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗️ Architecture
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Frontend
+- Built with Next.js and Material-UI
+- Real-time chat interface with message streaming
+- Markdown rendering support
+- Responsive design
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Backend
+- Next.js API routes for handling chat requests
+- RAG implementation using Pinecone vector database
+- OpenAI embeddings and GPT-4 for natural language processing
+- Streaming response implementation
 
-## Learn More
+## 💻 Technology Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Frontend Framework**: Next.js
+- **UI Components**: Material-UI
+- **Markdown Rendering**: React-Markdown
+- **Vector Database**: Pinecone
+- **AI Model**: OpenAI GPT-4
+- **API**: REST with streaming support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The application uses a system prompt that can be customized to modify the AI assistant's behavior. The current configuration includes:
 
-## Deploy on Vercel
+- Top 3 professor recommendations per query
+- Detailed professor information including:
+  - Name
+  - Department/Subject
+  - Overall rating
+  - Student feedback summary
+  - Key positive/negative points
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📝 Usage
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Start the application
+2. Enter your question about professors in the chat interface
+3. Receive real-time responses with professor recommendations
+4. Continue the conversation for more detailed information
+
+Example queries:
+- "Who are the best Computer Science professors for introductory courses?"
+- "Which professors have the highest ratings in the Mathematics department?"
+- "Can you recommend professors who are known for clear explanations?"
+
+## 🛠️ Development
+
+### Project Structure
+```
+├── app/
+│   ├── api/
+│   │   └── chat/
+│   │       └── route.js    # API endpoint for chat
+│   └── page.js             # Main chat interface
+├── public/
+└── package.json
+```
+
+### API Endpoint
+
+The `/api/chat` endpoint handles:
+- Vector similarity search using Pinecone
+- OpenAI embeddings generation
+- Response streaming
+- Context management
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## ✨ Acknowledgments
+
+- OpenAI for providing the GPT-4 model
+- Pinecone for vector database capabilities
+- Rate My Professor for the original inspiration
+
+## 📞 Support
+
+For support, please open an issue in the GitHub repository or contact the maintainers.
